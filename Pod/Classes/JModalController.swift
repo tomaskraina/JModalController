@@ -191,6 +191,11 @@ extension UIViewController : JModalDelegate {
         }
     }
     
+    /// Use this property instead of presentedViewController on a UIViewController instance
+    public var jModalViewController: UIViewController? {
+        return jModal
+    }
+    
     private func addOverlay
         (
             overlayColorBackgroundColor : UIColor? = UIColor(white: 0, alpha: 0.3),
