@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "JModalController"
-  s.version          = "0.0.5"
+  s.version          = "0.0.6"
   s.summary          = "An easy way to create custom sliding modals."
   s.description      = "Easily create custom modals that allow for a customizability and personal design. Don't be confined to using UIAlertController."
   s.homepage         = "https://github.com/jacks205/JModalController"
 s.screenshots        = "https://raw.githubusercontent.com/jacks205/JModalController/master/images/jmodalcontroller.gif"
   s.license          = 'MIT'
-  s.author           = { "Mark Jackson" => "jacks205@mail.chapman.edu" }
+  s.author           = { "Mark Jackson" => "jacks205@mail.chapman.edu", "Tom Kraina" => "me@tomkraina.com" }
   s.source           = { :git => "https://github.com/jacks205/JModalController.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mjacks205'
 
